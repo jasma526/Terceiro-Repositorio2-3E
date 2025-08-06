@@ -59,9 +59,6 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
-for (i = 0; i < checkbox.length; i++) {
-    .checkbox[i].onclick = geraSenha;
-}
 
 .parametro{
     background-color: var(--fundo-texto);
@@ -133,7 +130,6 @@ label {
     bottom: 30px;
 }
 
-
 .fraca {
     width: 25%;
     background-color: #E71B32;
@@ -141,14 +137,13 @@ label {
 
 .media {
     width: 50%;
-    background-color: #faf408;
+    background-color: #FAF408;
 }
 
 .forte {
     width: 100%;
-    background-color: #00ff85;
+    background-color: #00FF85;
 }
-
 
 .parametro-senha-textos {
     display: flex;
